@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
+//print("Hello, World!")
+print(twoSum([11, 15, 2, 7,], 9))
 
