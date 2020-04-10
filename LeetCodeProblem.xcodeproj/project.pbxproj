@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035F9DCD243F72CC00D3B159 /* TwoSum-II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035F9DCC243F72CC00D3B159 /* TwoSum-II.swift */; };
+		039FD43C244097AF009D538A /* MatchStickSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039FD43B244097AF009D538A /* MatchStickSquare.swift */; };
 		03EBA6D8243D1CCB00F96FD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EBA6D7243D1CCB00F96FD3 /* main.swift */; };
 		03EBA6DF243D1CF900F96FD3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EBA6DE243D1CF900F96FD3 /* TwoSum.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		035F9DCC243F72CC00D3B159 /* TwoSum-II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TwoSum-II.swift"; path = "../TwoSum-II.swift"; sourceTree = "<group>"; };
+		039FD43B244097AF009D538A /* MatchStickSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStickSquare.swift; sourceTree = "<group>"; };
 		03EBA6D4243D1CCB00F96FD3 /* LeetCodeProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EBA6D7243D1CCB00F96FD3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		03EBA6DE243D1CF900F96FD3 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -60,7 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				03EBA6D7243D1CCB00F96FD3 /* main.swift */,
+				035F9DCC243F72CC00D3B159 /* TwoSum-II.swift */,
 				03EBA6DE243D1CF900F96FD3 /* TwoSum.swift */,
+				039FD43B244097AF009D538A /* MatchStickSquare.swift */,
 			);
 			path = LeetCodeProblem;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03EBA6DF243D1CF900F96FD3 /* TwoSum.swift in Sources */,
+				039FD43C244097AF009D538A /* MatchStickSquare.swift in Sources */,
 				03EBA6D8243D1CCB00F96FD3 /* main.swift in Sources */,
+				035F9DCD243F72CC00D3B159 /* TwoSum-II.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
