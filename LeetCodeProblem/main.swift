@@ -12,4 +12,6 @@ import Foundation
 //print(twoSum([11, 15, 2, 7,], 9))
 
 //print(twoSum2([1,2,4,7,9,11,15], 9))
-print((matchSticksSquare(nums: [3,3,3,4,3])))
+//print((matchSticksSquare(nums: [3,3,3,4,3])))
+
+print(checkPossibility([4,5,3]))
