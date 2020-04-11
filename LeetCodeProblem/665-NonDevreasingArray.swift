@@ -13,7 +13,6 @@ import Foundation
 func checkPossibility(_  nums: [Int]) -> Bool {
     var nums =  nums
     var changeDone = false
-    
     for i in 0..<nums.count-1{
         
         if nums[i] <= nums[i+1]{
