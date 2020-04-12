@@ -23,6 +23,25 @@ func entityParser(_ text: String) -> String {
 }
 
 //https://leetcode.com/contest/weekly-contest-184/problems/string-matching-in-an-array/
+
+func stringMatching(_ words: [String]) -> [String] {
+    var set = Set<String>()
+    for (i, str1) in words.enumerated(){
+        for (j, str2) in words.enumerated(){
+            if i == j {
+                continue
+            }
+            if str1.contains(str2){
+                set.insert(str2)
+            }
+        }
+    }
+    return Array(set)
+}
+
+
+//this code test fails for 2nd problem
+
 func processQueries(_ queries: [Int], _ m: Int) -> [Int] {
     var arr = [Int]()
     var darr = Array(1...m)
