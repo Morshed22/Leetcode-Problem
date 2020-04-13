@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0336A0382444257500867C53 /* 04-MedianofTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0336A0372444257500867C53 /* 04-MedianofTwoSortedArrays.swift */; };
 		0399FC6F2443BF22003A5E5D /* TwoSum-II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0399FC6E2443BF22003A5E5D /* TwoSum-II.swift */; };
 		039FD43C244097AF009D538A /* MatchStickSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039FD43B244097AF009D538A /* MatchStickSquare.swift */; };
 		03A747652441A2010030734C /* 665-NonDevreasingArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A747642441A2010030734C /* 665-NonDevreasingArray.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0336A0372444257500867C53 /* 04-MedianofTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04-MedianofTwoSortedArrays.swift"; sourceTree = "<group>"; };
 		0399FC6E2443BF22003A5E5D /* TwoSum-II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TwoSum-II.swift"; sourceTree = "<group>"; };
 		039FD43B244097AF009D538A /* MatchStickSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStickSquare.swift; sourceTree = "<group>"; };
 		03A747642441A2010030734C /* 665-NonDevreasingArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "665-NonDevreasingArray.swift"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				039FD43B244097AF009D538A /* MatchStickSquare.swift */,
 				03A747642441A2010030734C /* 665-NonDevreasingArray.swift */,
 				03A747662441EBC60030734C /* 02-AddTwoNumber.swift */,
+				0336A0372444257500867C53 /* 04-MedianofTwoSortedArrays.swift */,
 			);
 			path = LeetCodeProblem;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				03A747672441EBC60030734C /* 02-AddTwoNumber.swift in Sources */,
 				0399FC6F2443BF22003A5E5D /* TwoSum-II.swift in Sources */,
 				03EBA6D8243D1CCB00F96FD3 /* main.swift in Sources */,
+				0336A0382444257500867C53 /* 04-MedianofTwoSortedArrays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
