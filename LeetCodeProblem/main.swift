@@ -31,6 +31,7 @@ import Foundation
 //node5.next = node6
 let startTime = CFAbsoluteTimeGetCurrent()
 //print(addTwoNumbers(&node1, &node4))
-print(findMedianSortedArrays([1,2], [3,4]))
+//print(findMedianSortedArrays([1,2], [3,4]))
+print(longestPalindrome("babad"))
 let endTme = CFAbsoluteTimeGetCurrent()
 print(endTme - startTime)
